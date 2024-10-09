@@ -41,7 +41,7 @@ cdf_values = np.arange(1, len(empirical_cdf) + 1) / len(empirical_cdf)
 
 # Gráfico de la CDF
 plt.plot(empirical_cdf, cdf_values, marker='.', linestyle='none', label='CDF Empírica')
-plt.plot([0, 1], [0, 1], 'r--', label='CDF Teórica (Uniforme)")
+plt.plot([0, 1], [0, 1], 'r--', label='CDF Teórica (Uniforme)')
 plt.title("Función de Distribución Acumulada")
 plt.xlabel("Valor")
 plt.ylabel("Probabilidad Acumulada")
